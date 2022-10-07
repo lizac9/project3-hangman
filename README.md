@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[View the Live Project here](https://project3-ahorcado.herokuapp.com/)
 
 Welcome lizac9,
 
