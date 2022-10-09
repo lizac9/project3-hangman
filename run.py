@@ -14,7 +14,7 @@ def play(word):
     guessed_words = []
     tries = 6
     """
-    Prompt user to input name and display welcoming
+    Display welcoming
     """
     print("WELCOME TO")
     # Title ASCII ART
@@ -174,7 +174,8 @@ def main():
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)
-
+    else:
+    print("Goodbye!")
 
 if __name__ == "__main__":
     main()
