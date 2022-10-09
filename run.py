@@ -175,7 +175,7 @@ def main():
         word = get_word()
         play(word)
     else:
-    print("Goodbye!")
+        print("Goodbye!")
 
 if __name__ == "__main__":
     main()
