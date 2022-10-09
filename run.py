@@ -2,36 +2,6 @@
 import random
 from words import word_list
 
-def welcome():
-    """
-    Prompt user to input name and display welcoming
-    """
-    print("WELCOME TO")
-    # Title ASCII ART
-    print(" ██░ ██  ▄▄▄       ███▄    █  "
-          " ▄████  ███▄ ▄███▓ ▄▄▄       ███▄    █ ")
-    print("▓██░ ██▒▒████▄     ██ ▀█   █  "
-          "██▒ ▀█▒▓██▒▀█▀ ██▒▒████▄     ██ ▀█   █ ")
-    print("▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒▒"
-          "██░▄▄▄░▓██    ▓██░▒██  ▀█▄  ▓██  ▀█ ██▒")
-    print("░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒░"
-          "▓█  ██▓▒██    ▒██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒")
-    print("░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░░"
-          "▒▓███▀▒▒██▒   ░██▒ ▓█   ▓██▒▒██░   ▓██░")
-    print(" ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒  "
-          "░▒   ▒ ░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ")
-    print(" ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░"
-          "  ░   ░ ░  ░      ░  ▒   ▒▒ ░░ ░░   ░ ▒░")
-    print(" ░  ░░ ░  ░   ▒      ░   ░ ░ "
-          "░ ░   ░ ░      ░     ░   ▒      ░   ░ ░ ")
-    print(" ░  ░  ░      ░  ░         ░  "
-          "     ░        ░         ░  ░         ░ ")
-
-    user_name = input("Please enter your name: \n")
-    print(f"~~~~~~  Welcome to hangman game, {user_name} ~~~~~~")
-    pause()
-
-
 def get_word():
     word = random.choice(word_list)
     return word.upper()
@@ -186,7 +156,6 @@ def display_hangman(tries):
 
 
 def main():
-    welcome()
     word = get_word()
     play(word)
     while input("Play Again? (Y/N) ").upper() == "Y":
