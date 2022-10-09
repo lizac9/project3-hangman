@@ -2,6 +2,7 @@
 import random
 from words import word_list
 
+
 def get_word():
     word = random.choice(word_list)
     return word.upper()
@@ -174,7 +175,7 @@ def main():
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
         play(word)
-    
+
     print("Goodbye!")
     print("_____________________________________________________________")
     print("      __                                                   /")
