@@ -1,12 +1,13 @@
+""" App file """
 import random
 from words import word_list
-import ascii
+import ascii_img
 
 def welcome():
     """
     Display the welcome message
     """
-    print(f"\033[1;49;35m{ascii.HANGMAN}")
+    print(f"\033[1;49;35m{ascii_img.HANGMAN}")
 
 
 def get_word():
