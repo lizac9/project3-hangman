@@ -43,6 +43,29 @@ def play(word):
     guessed_letters = []
     guessed_words = []
     tries = 6
+    """
+    Prompt user to input name and display welcoming
+    """
+    print("WELCOME TO")
+    # Title ASCII ART
+    print(" ██░ ██  ▄▄▄       ███▄    █  "
+          " ▄████  ███▄ ▄███▓ ▄▄▄       ███▄    █ ")
+    print("▓██░ ██▒▒████▄     ██ ▀█   █  "
+          "██▒ ▀█▒▓██▒▀█▀ ██▒▒████▄     ██ ▀█   █ ")
+    print("▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒▒"
+          "██░▄▄▄░▓██    ▓██░▒██  ▀█▄  ▓██  ▀█ ██▒")
+    print("░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒░"
+          "▓█  ██▓▒██    ▒██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒")
+    print("░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░░"
+          "▒▓███▀▒▒██▒   ░██▒ ▓█   ▓██▒▒██░   ▓██░")
+    print(" ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒  "
+          "░▒   ▒ ░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ")
+    print(" ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░"
+          "  ░   ░ ░  ░      ░  ▒   ▒▒ ░░ ░░   ░ ▒░")
+    print(" ░  ░░ ░  ░   ▒      ░   ░ ░ "
+          "░ ░   ░ ░      ░     ░   ▒      ░   ░ ░ ")
+    print(" ░  ░  ░      ░  ░         ░  "
+          "     ░        ░         ░  ░         ░ ")
     print("Let's play Hangman!")
     print(display_hangman(tries))
     print(word_completion)
