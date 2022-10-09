@@ -1,5 +1,12 @@
 import random
 from words import word_list
+import ascii
+
+def welcome():
+    """
+    Display the welcome message
+    """
+    print(f"\033[1;49;35m{ascii.HANGMAN}")
 
 
 def get_word():
