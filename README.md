@@ -117,7 +117,7 @@ Flowcharts created in the designing UX/UI stage:
 | **Choose a Letter** | The letter selected will apear and return a value if it is the correct answer or not.| Input a letter | A message will appear saying if  the letter is correct or incorrect|
 | **Choosing a caracter that is not a letter** | If the input is not a letter, the user can't send it| Invalid input | The character apears that is not valid|
 | **Play again** | If the user selects “Y” the game starts again| Start again the game| The game starts again |
-| **Play again** | If the user selects “N” or another character other than Y, the game will end| End the game| The game ends and a goodbye message appears |
+| **End Play** | If the user selects “N” or another character other than Y, the game will end| End the game| The game ends and a goodbye message appears |
 
 [Back to Top](#hangman)
 
@@ -180,5 +180,9 @@ External resources relevant to this code:
 - Ascii Art: https://patorjk.com/
 
 ## Acknowledgements
+- My mentor, for all their guidance and expertise. 
+- Fellow students, for their patience and assistance.
+- Code Institute for their support.
+
 
 [Back to Top](#hangman)
