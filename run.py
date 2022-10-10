@@ -1,4 +1,3 @@
-""" App file """
 import random
 from words import word_list
 
@@ -9,7 +8,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = "_" * len(word)
+    word_completion = "_ " * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -18,6 +17,7 @@ def play(word):
     Display welcoming
     """
     print("WELCOME TO")
+    print("\n")
     # Title ASCII ART
     print(" ██░ ██  ▄▄▄       ███▄    █  "
           " ▄████  ███▄ ▄███▓ ▄▄▄       ███▄    █ ")
@@ -58,7 +58,7 @@ def play(word):
                 for index in indices:
                     word_as_list[index] = guess
                 word_completion = "".join(word_as_list)
-                if "_" not in word_completion:
+                if "_ " not in word_completion:
                     guessed = True
         elif len(guess) == len(word) and guess.isalpha():
             if guess in guessed_words:
@@ -90,7 +90,6 @@ def play(word):
         print("██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗")
         print("╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║")
         print(" ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝")
-
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
 
 
