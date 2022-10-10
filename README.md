@@ -80,9 +80,6 @@ Flowcharts created in the designing UX/UI stage:
 ## Technologies Used
 
 ### **Languages Used:**
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 [Back to Top](#hangman)
