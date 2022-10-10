@@ -8,7 +8,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = "_ " * len(word)
+    word_completion = "_" * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -19,6 +19,10 @@ def play(word):
     print("WELCOME TO")
     print("\n")
     # Title ASCII ART
+    print("+-+-+-+-+-+-+-+")
+    print("|H|a|n|g|m|a|n|")
+    print("+-+-+-+-+-+-+-+")
+
     print(" ██░ ██  ▄▄▄       ███▄    █  "
           " ▄████  ███▄ ▄███▓ ▄▄▄       ███▄    █ ")
     print("▓██░ ██▒▒████▄     ██ ▀█   █  "
