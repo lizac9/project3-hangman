@@ -1,6 +1,12 @@
+# Hangman
 [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
+![Initial Image]
+## Table of Contents
 
 
+
+## List of Features:
+### Existing Features:
 
 ## Deployment
 The site has been deployed through Heroku.
@@ -39,3 +45,5 @@ External resources relevant to this code:
 
 #### **Media:**
 - Ascii Art: https://patorjk.com/
+
+## Acknowledgements
