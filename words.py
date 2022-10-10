@@ -77,12 +77,7 @@ word_list = [
     'bearded',
     'premium',
     'featured',
-    'serve',
-    'borrower',
     'examine',
-    'legal',
-    'outlive',
-    'unnamed',
     'unending',
     'snow',
     'whisper',
@@ -376,5 +371,4 @@ word_list = [
     'worship',
     'vent',
     'hybrid',
-    'buffet',
-    'lively']
+    'buffet']

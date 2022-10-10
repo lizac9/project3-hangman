@@ -8,21 +8,56 @@
 ## List of Features:
 
 ### Existing Features:
-
 #### **Welcoming & Let’s play:**
+The user enters the webpage and is greeted by a stylised Hangman title page with a gallows below. The user is prompted to play the game.
+
+Welcome display
 
 #### **Game section:**
+The website will automatically begin the game. 
+User is asked to guess the word by entering individual letters.
+If the input letter is in the selected word, the user is notified and the letter replaces the underscore. 
 
-#### **Ending section:**
+Correct letter display
+
+In the case that the user inputs a key that is already displayed among underscores (i.e. already answered correctly), they will receive a message saying the letter is already in use.
+
+Used letter display
+
+If the user's input is incorrect (i.e. a letter not in the selected word), the user will be notified and the hangman image develops one segment at a time.
+
+Incorrect letter display
+
+#### **Game ending:**
+The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “winner” message in the keyboard layout appears.
+ 
+You win display
+
+When the game completes by reaching the limit of incorrect attempts, a 'game over' ascii art will display below the hangman image.
+
+Game Over display
+
+#### **Replay section:**
+The user has the option to replay the game or to exit the application.
+If the user selects “Y” the application starts the game again.
+If the user selects “N” or another character other than Y, the game ends and displays a goodbye message.
+
+Goodbye display 
+
+[Back to Top](#hangman)
 
 ### Future Features:
+
 
 
 ## UI/UX:
 ### Site Goals:
 
+This website is designed to allow the user to access an easy to play and educational word based guessing game. This has been achieved using the classic Hangman layout.
+
 ### Target Audience:
 
+This website functions as a simple word based guessing game for anyone who would like to test their knowledge and expand their vocabulary. 
 
 [Back to Top](#hangman)
 
@@ -40,6 +75,7 @@
 Flowcharts created in the designing UX/UI stage:
 ![Flowcharts]()
 
+[Back to Top](#hangman)
 
 ## Technologies Used
 
@@ -49,7 +85,7 @@ Flowcharts created in the designing UX/UI stage:
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
-[Back to Top](#)
+[Back to Top](#hangman)
 
 
 ## Frameworks, Libraries & Programs Used
@@ -68,7 +104,7 @@ Flowcharts created in the designing UX/UI stage:
     - Heroku was used for deployment, the specification is in the deployment section.
 7. The Code Institute's GitHub full template for Python is used in order for the program to display properly in the deployed site on Heroku.
 
-[Back to Top](#)
+[Back to Top](#hangman)
 
 ## Testing
 
@@ -83,6 +119,7 @@ Flowcharts created in the designing UX/UI stage:
 | **Play again** | If the user selects “Y” the game starts again| Start again the game| The game starts again |
 | **Play again** | If the user selects “N” or another character other than Y, the game will end| End the game| The game ends and a goodbye message appears |
 
+[Back to Top](#hangman)
 
 #### **Testing User Stories:**
 Results:
@@ -100,6 +137,7 @@ The website has had manual tests conducted on the below browsers and no errors w
 - Safari
 - Firefox
 
+[Back to Top](#hangman)
 ## Deployment
 The site has been deployed through Heroku.
 The site has been developed on GitPod, committed and pushed to GitHub. Heroku will update automatically once the site is deployed. 
@@ -123,6 +161,8 @@ The ordering is as follows:
 13. Verify that "Branch to deploy" is master/main.
 14. Click Deploy and the link with live project will appear. [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
 
+[Back to Top](#hangman)
+
 ## Credits
 
 #### **Content:**
@@ -140,3 +180,5 @@ External resources relevant to this code:
 - Ascii Art: https://patorjk.com/
 
 ## Acknowledgements
+
+[Back to Top](#hangman)

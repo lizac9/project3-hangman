@@ -17,12 +17,7 @@ def play(word):
     Display welcoming
     """
     print("WELCOME TO")
-    print("\n")
     # Title ASCII ART
-    print("+-+-+-+-+-+-+-+")
-    print("|H|a|n|g|m|a|n|")
-    print("+-+-+-+-+-+-+-+")
-
     print(" ██░ ██  ▄▄▄       ███▄    █  "
           " ▄████  ███▄ ▄███▓ ▄▄▄       ███▄    █ ")
     print("▓██░ ██▒▒████▄     ██ ▀█   █  "
