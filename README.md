@@ -6,7 +6,99 @@
 
 
 ## List of Features:
+
 ### Existing Features:
+
+#### **Welcoming & Let’s play:**
+
+#### **Game section:**
+
+#### **Ending section:**
+
+### Future Features:
+
+
+## UI/UX:
+### Site Goals:
+
+### Target Audience:
+
+
+[Back to Top](#hangman)
+
+### User Stories:
+
+- As a user, I want clarity of what I am seeing on the application.
+- As a user, I want education as well as a challenge in a quiz.
+- As a user, I want an easy to navigate interface.
+- As a user, I want a clear indication when I choose an incorrect or correct answer.
+- As a user, I want to have the choice to play again.
+- As a user, I want to have the choice to end the game.
+
+### Flowcharts - Designing stage:
+
+Flowcharts created in the designing UX/UI stage:
+![Flowcharts]()
+
+
+## Technologies Used
+
+### **Languages Used:**
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+[Back to Top](#)
+
+
+## Frameworks, Libraries & Programs Used
+
+1. [Git](https://git-scm.com/):
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+2. [GitHub](https://github.com/):
+    - GitHub is used to store the project's code after being pushed from Git.
+3. [Canva](https://canva.com/):
+    - Canva was used to create the flowcharts during the design process.
+4. [Am I responsive?](https://ui.dev/amiresponsive?url=https%3A%2F%2Fbytes.dev):
+    - This application was used for visualization of the application on diferent devices.
+5. [Cloudinary](https://cloudinary.com/):
+    - Cloudinary was used to store and link the images.
+6. [Heroku](https://dashboard.heroku.com/) 
+    - Heroku was used for deployment, the specification is in the deployment section.
+7. The Code Institute's GitHub full template for Python is used in order for the program to display properly in the deployed site on Heroku.
+
+[Back to Top](#)
+
+## Testing
+
+#### **Validator Testing:**
+
+#### **Manual Testing:**
+|  Feature | Expectation | Action | Result|
+|-------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------------------------------------------------------------|
+| **Welcoming & Start** | Welcome message and game will open automatically | Open the game app | Welcome & Game opened automatically|
+| **Choose a Letter** | The letter selected will apear and return a value if it is the correct answer or not.| Input a letter | A message will appear saying if  the letter is correct or incorrect|
+| **Choosing a caracter that is not a letter** | If the input is not a letter, the user can't send it| Invalid input | The character apears that is not valid|
+| **Play again** | If the user selects “Y” the game starts again| Start again the game| The game starts again |
+| **Play again** | If the user selects “N” or another character other than Y, the game will end| End the game| The game ends and a goodbye message appears |
+
+
+#### **Testing User Stories:**
+Results:
+- As a user, the game is very straightforward and easy to play. 
+- As a user, the selection of english words introduces me to a wider vocabulary.
+- As a user, the linear and consistent webpage is easy to navigate. 
+- As a user, I can see if my chosen letter is a correct or incorrect answer.
+- As a user, I am free to play again.
+- As a user, I can chose to end the game.
+
+#### **Browser Compatibility:**
+The website has had manual tests conducted on the below browsers and no errors were detected.
+- Google Chrome
+- Microsoft Edge
+- Safari
+- Firefox
 
 ## Deployment
 The site has been deployed through Heroku.
@@ -40,6 +132,7 @@ The words chosen were randomly selected.
 External resources relevant to this code:
 - How to pick a random english word from a list: https://stackoverflow.com/questions/594273/how-to-pick-a-random-english-word-from-a-list
 - While function https://ellibrodepython.com/while-python
+- Hangman with python https://youtu.be/pFvSb7cb_Us
 - Hangman https://youtu.be/m4nEnsavl6w
 - Code Institute Submitions https://github.com/Code-Institute-Submissions/hangman-2
 
