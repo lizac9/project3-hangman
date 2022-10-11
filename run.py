@@ -8,7 +8,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = "_" * len(word)
+    word_completion = "_ " * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -90,7 +90,7 @@ def play(word):
         print("██║   ██║██╔══██║██║╚██╔╝██║██╔══╝      ██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗")
         print("╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗    ╚██████╔╝ ╚████╔╝ ███████╗██║  ██║")
         print(" ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝     ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝")
-        print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
+        print("Sorry, you ran out of lives. The word was " + word + ". Maybe next time!")
 
 
 def display_hangman(lives):

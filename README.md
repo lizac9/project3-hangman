@@ -180,6 +180,10 @@ The ordering is as follows:
 13. Verify that "Branch to deploy" is master/main.
 14. Click Deploy and the link with live project will appear. [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
 
+- The link to access [this repository](https://github.com/lizac9/project3-hangman). 
+- The steps to "[Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo)" the repository. 
+- The steps to "[Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository)" the repository.
+
 [Back to Top](#hangman)
 
 ## Credits
