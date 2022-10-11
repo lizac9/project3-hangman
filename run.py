@@ -8,7 +8,7 @@ def get_word():
 
 
 def play(word):
-    word_completion = "_ " * len(word)
+    word_playing = "_ " * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -39,7 +39,7 @@ def play(word):
     print("\n")
     print("Let's play Hangman!")
     print(display_hangman(lives))
-    print(word_completion)
+    print(word_playing)
     print("\n")
     while not guessed and lives > 0:
         guess = input("Please guess a letter or word: ").upper()
@@ -53,12 +53,12 @@ def play(word):
             else:
                 print("Good job,", guess, "is in the word!")
                 guessed_letters.append(guess)
-                word_as_list = list(word_completion)
+                word_as_list = list(word_playing)
                 indices = [i for i, letter in enumerate(word) if letter == guess]
                 for index in indices:
                     word_as_list[index] = guess
-                word_completion = "".join(word_as_list)
-                if "_" not in word_completion:
+                word_playing = "".join(word_as_list)
+                if "_" not in word_playing:
                     guessed = True
         elif len(guess) == len(word) and guess.isalpha():
             if guess in guessed_words:
@@ -69,11 +69,11 @@ def play(word):
                 guessed_words.append(guess)
             else:
                 guessed = True
-                word_completion = word
+                word_playing = word
         else:
             print("Not a valid guess.")
         print(display_hangman(lives))
-        print(word_completion)
+        print(word_playing)
         print("\n")
     if guessed:
         print("██╗   ██╗ ██████╗ ██╗   ██╗    ██╗    ██╗██╗███╗   ██╗    ██╗")
