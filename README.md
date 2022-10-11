@@ -130,6 +130,7 @@ Flowcharts created in the designing UX/UI stage:
 ## Testing
 
 #### **Validator Testing:**
+In the process of validating the project, the validator pep8 was unfunctioning. I saw the recommendation on student support to use the pycodestyle built in the workspace on gitpod. Below are the screenshots of the results. The code is too long and the white spaces mensages are due to the ASCII art. This doesn't present significant issues and I couldn't change this due to lack of time.
 
 #### **Manual Testing:**
 |  Feature | Expectation | Action | Result|
