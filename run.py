@@ -54,7 +54,9 @@ def play(word):
                 print("Good job,", guess, "is in the word!")
                 guessed_letters.append(guess)
                 word_as_list = list(word_playing)
-                indices = [i for i, letter in enumerate(word) if letter == guess]
+                indices = [
+                    i for i,
+                    letter in enumerate(word) if letter == guess]
                 for index in indices:
                     word_as_list[index] = guess
                 word_playing = "".join(word_as_list)
@@ -80,7 +82,7 @@ def play(word):
         print("╚██╗ ██╔╝██╔═══██╗██║   ██║    ██║    ██║██║████╗  ██║    ██║")
         print(" ╚████╔╝ ██║   ██║██║   ██║    ██║ █╗ ██║██║██╔██╗ ██║    ██║")
         print("  ╚██╔╝  ██║   ██║██║   ██║    ██║███╗██║██║██║╚██╗██║    ╚═╝")
-        print("   ██║   ╚██████╔╝╚██████╔╝    ╚███╔███╔╝██║██║ ╚████║    ██╗") 
+        print("   ██║   ╚██████╔╝╚██████╔╝    ╚███╔███╔╝██║██║ ╚████║    ██╗")
         print("   ╚═╝    ╚═════╝  ╚═════╝      ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝    ╚═╝")
         print("Congrats, you guessed the word! You win!")
     else:
@@ -94,7 +96,7 @@ def play(word):
 
 
 def display_hangman(lives):
-    stages = [  # final state: head, torso, both arms, and both legs
+    body_parts = [  # final body: head, torso, both arms, and both legs
                 """
                    --------
                    |      |
@@ -165,7 +167,7 @@ def display_hangman(lives):
                    -
                 """
     ]
-    return stages[lives]
+    return body_parts[lives]
 
 
 def main():
@@ -173,8 +175,7 @@ def main():
     play(word)
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
-        play(word)
-
+        play(word)        
     print("Goodbye!")
     print("_____________________________________________________________")
     print("      __                                                   /")

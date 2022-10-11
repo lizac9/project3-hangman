@@ -2,9 +2,9 @@
 [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
 ![Initial Image]
 ## Table of Contents
-+ List of Features
-  + Existing Features
-  + Future Features
++ [List of Features](#list-of-features)
+  + [Existing Features](#existing-features)
+  + [Future Features]
 + UX/UI
   + Site Goals
   + Target Audience
