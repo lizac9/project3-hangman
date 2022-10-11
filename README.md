@@ -5,27 +5,27 @@
 + [List of Features](#list-of-features)
   + [Existing Features](#existing-features)
   + [Future Features]
-+ UX/UI
-  + Site Goals
-  + Target Audience
-  + User stories
-  + Flowchart
-+ Technologies Used
-  + Languages Used
-  + Frameworks, Libraries & Programs Used
-+ Testing
-  + Validator Testing
-  + Manual Testing
-  + Testing User Stories
-  + Browser Compatibility
-+ Debugging
-  + Unfixed Bugs
-+ Deployment
-+ Credits
-  + Content
-  + Code
-  + Media
-+ Acknowledgements
++ [UX/UI](#uiux)
+  + [Site Goals](#site-goals)
+  + [Target Audience](#target-audience)
+  + [User stories](#user-stories)
+  + [Flowchart](#flowcharts)
++ [Technologies Used](#technologies-used)
+  + [Languages Used](#languages-used)
+  + [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
++ [Testing](#testing)
+  + [Validator Testing](#validator-testing)
+  + [Manual Testing](#manual-testing)
+  + [Testing User Stories](#testing-user-stories)
+  + [Browser Compatibility](#browser-compatibility)
++ [Debugging]
+  + [Unfixed Bugs]
++ [Deployment](#deployment)
++ [Credits](#credits)
+  + [Content](#content)
+  + [Code](#code)
+  + [Media](#media)
++ [Acknowledgements](#acknowledgements)
 
 ## List of Features:
 

@@ -8,7 +8,7 @@ def get_word():
 
 
 def play(word):
-    word_playing = "_ " * len(word)
+    word_playing = "_" * len(word)
     guessed = False
     guessed_letters = []
     guessed_words = []
@@ -113,7 +113,7 @@ def display_hangman(lives):
                    |      O
                    |     \\|/
                    |      |
-                   |     / 
+                   |     /
                    -
                 """,
                 # head, torso, and both arms
@@ -175,7 +175,7 @@ def main():
     play(word)
     while input("Play Again? (Y/N) ").upper() == "Y":
         word = get_word()
-        play(word)        
+        play(word)       
     print("Goodbye!")
     print("_____________________________________________________________")
     print("      __                                                   /")
