@@ -40,6 +40,7 @@ def play(word):
     print("Let's play Hangman!")
     print(display_hangman(lives))
     print(word_playing)
+
     while not guessed and lives > 0:
         guess = input("Please guess a letter or word: ").upper()
         if len(guess) == 1 and guess.isalpha():
