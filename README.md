@@ -4,7 +4,7 @@
 ## Table of Contents
 + [List of Features](#list-of-features)
   + [Existing Features](#existing-features)
-  + [Future Features]
+  + [Future Features](#future-features)
 + [UX/UI](#uiux)
   + [Site Goals](#site-goals)
   + [Target Audience](#target-audience)
@@ -18,8 +18,8 @@
   + [Manual Testing](#manual-testing)
   + [Testing User Stories](#testing-user-stories)
   + [Browser Compatibility](#browser-compatibility)
-+ [Debugging]
-  + [Unfixed Bugs]
+  + [Debugging](#debugging)
+  + [Unfixed Bugs](#unfixed-bugs)
 + [Deployment](#deployment)
 + [Credits](#credits)
   + [Content](#content)
@@ -69,8 +69,10 @@ Goodbye display
 [Back to Top](#hangman)
 
 ### Future Features:
-
-
+- Option to select a game with words relating to a chosen theme.
+- Customisation - Create displays through HTML and CSS.
+- Interface development - option to view available letters or used letters.
+- Personalisation - username creation.
 
 ## UI/UX:
 ### Site Goals:
@@ -156,7 +158,15 @@ The website has had manual tests conducted on the below browsers and no errors w
 - Safari
 - Firefox
 
+#### **Debugging:**
+The underscore was spaced correctly, but the letters of the word appeared in the wrong order. I solved this by eliminating the space between the underscore.
+
+#### **Unfixed Bugs:**
+
+No unfixed bugs that I'm aware of.
+
 [Back to Top](#hangman)
+
 ## Deployment
 The site has been deployed through Heroku.
 The site has been developed on GitPod, committed and pushed to GitHub. Heroku will update automatically once the site is deployed. 
