@@ -12,7 +12,7 @@ def play(word):
     guessed = False
     guessed_letters = []
     guessed_words = []
-    tries = 6
+    lives = 6
     """
     Display welcoming
     """
@@ -38,17 +38,17 @@ def play(word):
           "     ░        ░         ░  ░         ░ ")
     print("\n")
     print("Let's play Hangman!")
-    print(display_hangman(tries))
+    print(display_hangman(lives))
     print(word_completion)
     print("\n")
-    while not guessed and tries > 0:
+    while not guessed and lives > 0:
         guess = input("Please guess a letter or word: ").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print("You already guessed the letter", guess)
             elif guess not in word:
                 print(guess, "is not in the word.")
-                tries -= 1
+                lives -= 1
                 guessed_letters.append(guess)
             else:
                 print("Good job,", guess, "is in the word!")
@@ -72,7 +72,7 @@ def play(word):
                 word_completion = word
         else:
             print("Not a valid guess.")
-        print(display_hangman(tries))
+        print(display_hangman(lives))
         print(word_completion)
         print("\n")
     if guessed:
@@ -93,7 +93,7 @@ def play(word):
         print("Sorry, you ran out of tries. The word was " + word + ". Maybe next time!")
 
 
-def display_hangman(tries):
+def display_hangman(lives):
     stages = [  # final state: head, torso, both arms, and both legs
                 """
                    --------
@@ -165,7 +165,7 @@ def display_hangman(tries):
                    -
                 """
     ]
-    return stages[tries]
+    return stages[lives]
 
 
 def main():

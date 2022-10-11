@@ -2,8 +2,30 @@
 [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
 ![Initial Image]
 ## Table of Contents
-
-
++ List of Features
+  + Existing Features
+  + Future Features
++ UX/UI
+  + Site Goals
+  + Target Audience
+  + User stories
+  + Flowchart
++ Technologies Used
+  + Languages Used
+  + Frameworks, Libraries & Programs Used
++ Testing
+  + Validator Testing
+  + Manual Testing
+  + Testing User Stories
+  + Browser Compatibility
++ Debugging
+  + Unfixed Bugs
++ Deployment
++ Credits
+  + Content
+  + Code
+  + Media
++ Acknowledgements
 
 ## List of Features:
 
@@ -70,10 +92,10 @@ This website functions as a simple word based guessing game for anyone who would
 - As a user, I want to have the choice to play again.
 - As a user, I want to have the choice to end the game.
 
-### Flowcharts - Designing stage:
+### Flowcharts:
 
 Flowcharts created in the designing UX/UI stage:
-![Flowcharts]()
+![Flowcharts](https://res.cloudinary.com/lizac/image/upload/v1665488284/project3-hangman/White_Minimal_Flowchart_tf5lv3.png)
 
 [Back to Top](#hangman)
 
