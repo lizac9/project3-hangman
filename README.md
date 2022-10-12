@@ -50,6 +50,10 @@ If the user's input is incorrect (i.e. a letter not in the selected word), the u
 
 ![Incorrect letter display](https://res.cloudinary.com/lizac/image/upload/v1665583911/project3-hangman/not_in_the_word_czbcns.png)
 
+If the user’s input is a character that is not a letter, they will receive a message that it is not a valid input
+
+![Not a letter display](https://res.cloudinary.com/lizac/image/upload/v1665583924/project3-hangman/not_valid_eqvpqq.png)
+
 #### **Game ending:**
 The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “winner” message in the keyboard layout appears.
  
