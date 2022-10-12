@@ -1,6 +1,6 @@
 # Hangman
 [View the Live Project here](https://project3-ahorcado.herokuapp.com/)
-![Initial Image]
+![Initial Image](https://res.cloudinary.com/lizac/image/upload/v1665585631/project3-hangman/sizes_fu7p5x.png)
 ## Table of Contents
 + [List of Features](#list-of-features)
   + [Existing Features](#existing-features)
