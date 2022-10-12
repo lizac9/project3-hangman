@@ -53,18 +53,18 @@ If the user's input is incorrect (i.e. a letter not in the selected word), the u
 #### **Game ending:**
 The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “winner” message in the keyboard layout appears.
  
-You win display
+![You win display](https://res.cloudinary.com/lizac/image/upload/v1665585019/project3-hangman/you_win_h8bxw8.png)
 
 When the game completes by reaching the limit of incorrect attempts, a 'game over' ascii art will display below the hangman image.
 
-Game Over display
+![Game Over display](https://res.cloudinary.com/lizac/image/upload/v1665585013/project3-hangman/gameover_rluhnv.png)
 
 #### **Replay section:**
 The user has the option to replay the game or to exit the application.
 If the user selects “Y” the application starts the game again.
 If the user selects “N” or another character other than Y, the game ends and displays a goodbye message.
 
-Goodbye display 
+![Goodbye display](https://res.cloudinary.com/lizac/image/upload/v1665585248/project3-hangman/goodbye_aalg9r.png) 
 
 [Back to Top](#hangman)
 
