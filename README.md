@@ -33,22 +33,22 @@
 #### **Welcoming & Let’s play:**
 The user enters the webpage and is greeted by a stylised Hangman title page with a gallows below. The user is prompted to play the game.
 
-Welcome display
+![Welcome display](https://res.cloudinary.com/lizac/image/upload/v1665584096/project3-hangman/welcomingstart_mcm9nz.png)
 
 #### **Game section:**
 The website will automatically begin the game. 
 User is asked to guess the word by entering individual letters.
 If the input letter is in the selected word, the user is notified and the letter replaces the underscore. 
 
-Correct letter display
+![Correct letter display](https://res.cloudinary.com/lizac/image/upload/v1665583896/project3-hangman/in_the_word_dtxxvi.png)
 
 In the case that the user inputs a key that is already displayed among underscores (i.e. already answered correctly), they will receive a message saying the letter is already in use.
 
-Used letter display
+![Used letter display](https://res.cloudinary.com/lizac/image/upload/v1665583929/project3-hangman/alreadyguessed_nvwsbq.png)
 
 If the user's input is incorrect (i.e. a letter not in the selected word), the user will be notified and the hangman image develops one segment at a time.
 
-Incorrect letter display
+![Incorrect letter display](https://res.cloudinary.com/lizac/image/upload/v1665583911/project3-hangman/not_in_the_word_czbcns.png)
 
 #### **Game ending:**
 The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “winner” message in the keyboard layout appears.

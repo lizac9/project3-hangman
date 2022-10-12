@@ -10,8 +10,8 @@ def get_word():
 def play(word):
     word_playing = "_" * len(word)
     guessed = False
-    guessed_letters = []
     guessed_words = []
+    guessed_letters = []
     lives = 6
     """
     Display welcoming
