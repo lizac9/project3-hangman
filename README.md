@@ -37,7 +37,7 @@ The user enters the webpage and is greeted by a stylised Hangman title page with
 
 #### **Game section:**
 The website will automatically begin the game. 
-User is asked to guess the word by entering individual letters.
+The user is asked to guess the word by entering individual letters.
 If the input letter is in the selected word, the user is notified and the letter replaces the underscore. 
 
 ![Correct letter display](https://res.cloudinary.com/lizac/image/upload/v1665583896/project3-hangman/in_the_word_dtxxvi.png)
@@ -156,7 +156,7 @@ Results:
 - As a user, the linear and consistent webpage is easy to navigate. 
 - As a user, I can see if my chosen letter is a correct or incorrect answer.
 - As a user, I am free to play again.
-- As a user, I can chose to end the game.
+- As a user, I can choose to end the game.
 
 #### **Browser Compatibility:**
 The website has had manual tests conducted on the below browsers and no errors were detected.

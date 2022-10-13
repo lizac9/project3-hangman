@@ -40,7 +40,7 @@ word_list = [
     'danger',
     'bruise',
     'seminar',
-    'tinge',
+    'rhythm',
     'trip',
     'narrow',
     'while',
