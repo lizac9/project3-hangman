@@ -1,5 +1,6 @@
 word_list = [
     'soup',
+    'biscuits',
     'brown',
     'expert',
     'tired',
@@ -13,7 +14,7 @@ word_list = [
     'desert',
     'memento',
     'kayak',
-    'talon',
+    'glasses',
     'portion',
     'affirm',
     'fare',
