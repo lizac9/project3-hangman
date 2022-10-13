@@ -55,7 +55,7 @@ If the user’s input is a character that is not a letter, they will receive a m
 ![Not a letter display](https://res.cloudinary.com/lizac/image/upload/v1665583924/project3-hangman/not_valid_eqvpqq.png)
 
 #### **Game ending:**
-The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “winner” message in the keyboard layout appears.
+The game will be completed when the user fills all the letters in the selected word or when the hangman appears in his entirety. In the event that the user wins, the “you win!” message in the keyboard layout appears.
  
 ![You win display](https://res.cloudinary.com/lizac/image/upload/v1665585019/project3-hangman/you_win_h8bxw8.png)
 
@@ -135,6 +135,8 @@ Flowcharts created in the designing UX/UI stage:
 
 #### **Validator Testing:**
 In the process of validating the project, the validator pep8 was unfunctioning. I saw the recommendation on student support to use the pycodestyle built in the workspace on gitpod. Below are the screenshots of the results. The code is too long and the white spaces mensages are due to the ASCII art. This doesn't present significant issues and I couldn't change this due to lack of time.
+![tooloong](https://res.cloudinary.com/lizac/image/upload/v1665657667/project3-hangman/line_to_loong_ascii_jq4rvf.png)
+![whitespaces](https://res.cloudinary.com/lizac/image/upload/v1665657677/project3-hangman/white_spaces_bodyparts_idtwhc.png)
 
 #### **Manual Testing:**
 |  Feature | Expectation | Action | Result|
